@@ -18,38 +18,32 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("21816509", ""))
+API_HASH = getenv("0e4cebacaaebe9d618b5a5360d40e684")
 
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("7789481133:AAEhaLRXjrWG2Mk9ov1XM_jw-tgNLIHss1I")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("mongodb://rdhmichatterjee:Password@ac-afoxffj-shard-00-00.4k77wl7.mongodb.net:27017,ac-afoxffj-shard-00-01.4k77wl7.mongodb.net:27017,ac-afoxffj-shard-00-02.4k77wl7.mongodb.net:27017/?ssl=true&replicaSet=atlas-8ijsze-shard-0&authSource=admin&retryWrites=true&w=majority"", None)
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "1000"))
 
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("-1002624280540", ""))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
+MUSIC_BOT_NAME = getenv("রোমিও ২.০")
 
-OWNER_ID = int(getenv("OWNER_ID", None))
-
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
-
-BOT_ID = getenv("BOT_ID")
-
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
+OWNER_ID = int(getenv("7554458891", None))
 
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/TheTeamAlexa/AlexaMusic")
 
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
-GIT_TOKEN = getenv("GIT_TOKEN", None)
+GIT_TOKEN = getenv("None", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Alexa_BotUpdates")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/romiyo_2_0")
 
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Alexa_Help")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/romiyo_here_2_0")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
@@ -59,41 +53,41 @@ AUTO_SUGGESTION_TIME = int(getenv("AUTO_SUGGESTION_TIME", "5400"))
 
 AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", "True")
 
-AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "False")
+AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "True")
 
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 
-YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "3"))
+YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("20", "3"))
 
-TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
+TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("10", "5"))
 
 GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/TheTeamAlexa/AlexaMusic")
 
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
+SPOTIFY_CLIENT_ID = getenv("None", None)
 
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
+SPOTIFY_CLIENT_SECRET = getenv("None", None)
 
-VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "2"))
+VIDEO_STREAM_LIMIT = int(getenv("2", "2"))
 
-SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "50"))
+SERVER_PLAYLIST_LIMIT = int(getenv("60", "50"))
 
-PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "50"))
+PLAYLIST_FETCH_LIMIT = int(getenv("50", "50"))
 
-CLEANMODE_DELETE_MINS = int(getenv("CLEANMODE_MINS", "7"))
+CLEANMODE_DELETE_MINS = int(getenv("8", "7"))
 
-TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
+TG_AUDIO_FILESIZE_LIMIT = int(getenv("200000406330", "104857600"))
 
-TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
+TG_VIDEO_FILESIZE_LIMIT = int(getenv("1073741824", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-COOKIES = getenv("COOKIES", None)
+COOKIES = getenv("None", None)
 # https://batbin.me
 
-STRING1 = getenv("STRING_SESSION", None)
-STRING2 = getenv("STRING_SESSION2", None)
-STRING3 = getenv("STRING_SESSION3", None)
-STRING4 = getenv("STRING_SESSION4", None)
-STRING5 = getenv("STRING_SESSION5", None)
+STRING1 = getenv("BQG-rjEAWQVKXZ7-DI657rh6WsDGRLuaNW6FwL6kdDaXnwBm5WRdvhNxwu-_xYQsaEHRPvWhJl7s6jj3TF3VW_PqMR8Y0GlfrWXD73aNZyTKkluF2cJTeTuy05T8gFkRvsYVtLHfG7XH7t5tQBN14vkq-Bn-vijeDqQ0gmHf8PgQCdKNM7WP-l3w-AZP1SXlrphwB8IhzdILDFmgRngkbJppGRHgcl9sOOfG5BSijDApz_MmqB3H6hNHK05fYJwO_UidcBov8SmsUyTvd5wsq5WXp4THe4uQEhRdwQZdFZ_qaeaCBWMA4FyukpsmQmdIC0Oe2jbL0a38LvixOfbMeqmezpXZwwAAAAHmlgEgAA", None)
+STRING2 = getenv("None", None)
+STRING3 = getenv("None", None)
+STRING4 = getenv("None", None)
+STRING5 = getenv("None", None)
 
 BANNED_USERS = filters.user()
 YTDOWNLOADER = 1
